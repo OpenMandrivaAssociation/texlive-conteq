@@ -1,12 +1,6 @@
-# revision 30746
-# category Package
-# catalog-ctan /macros/latex/contrib/conteq
-# catalog-date 2013-05-26 18:29:07 +0200
-# catalog-license lppl1.3
-# catalog-version 0.1
 Name:		texlive-conteq
-Version:	0.1
-Release:	9
+Version:	0.1.1
+Release:	1
 Summary:	Typeset multiline continued equalities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/conteq
@@ -36,14 +30,10 @@ macros.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/conteq/conteq.sty
-%doc %{_texmfdistdir}/doc/latex/conteq/README
-%doc %{_texmfdistdir}/doc/latex/conteq/README.txt
-%doc %{_texmfdistdir}/doc/latex/conteq/conteq.hd
-%doc %{_texmfdistdir}/doc/latex/conteq/conteq.pdf
+%{_texmfdistdir}/tex/latex/conteq
+%doc %{_texmfdistdir}/doc/latex/conteq
 #- source
-%doc %{_texmfdistdir}/source/latex/conteq/conteq.dtx
-%doc %{_texmfdistdir}/source/latex/conteq/conteq.ins
+%doc %{_texmfdistdir}/source/latex/conteq
 
 #-----------------------------------------------------------------------
 %prep
